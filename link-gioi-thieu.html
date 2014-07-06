@@ -3,12 +3,21 @@ layout: default
 ---
 
 <div class="row collapse">
-  <p class="introtext bigtext">Trang gioi thieu ve hoat dong cua cong ty<br>Dang xay dung!</p>
+  <img src="http://placehold.it/1000x300" />
 </div>
-
+<br><br>
 <div class="row collapse">
-  <p>bai gioi thieu day du (lich su phat trien, hoat dong dau tu)</p>
-  <p>sidebar: 6 san pham quang cao chinh (lien ket toi trang san pham)</p>
+	<div class="medium-9 large-7 columns">
+		{% include gt-content-top.html %}
+	</div>
+
+	<div class="medium-3 large-5 columns">
+		<div class="row collapse">
+			<div class="medium-11 medium-offset-1 columns">
+				{% include gt-content-sidebar.html %}
+			</div>
+		</div>
+	</div>
 </div>
 
 <div class="row collapse">

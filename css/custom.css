@@ -5,4 +5,7 @@ img.hvlogo {width: 280px; margin-left: -0.2em;}
 p.introtext {text-align:center; line-height:1.1em;}
 p.bigtext {font-size:1.6em; color:red;}
 
+div.yellow-bg {background: #F7F8E0;}
+div.closing-line p {font-size: 80%;}
+
 div.home-left-content {padding: 0 2em; }
