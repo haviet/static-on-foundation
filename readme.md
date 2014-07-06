@@ -1,8 +1,7 @@
-Đã clone một bản trên iMac: `~/haviet.github.com`
+Tách từ nhánh static của `haviet.github.com` ra đây cho tiện làm và preview online. Để trong một nhánh của repo khác mỗi lần làm & update quá lằng nhằng.
 
 ##Working:
 - Design: http://nikenhn.weblogs.us/haviet/
-- Hiện có 2 branch, master là làm bừa, còn static là dùng foundation. Rắc rối phết.
 
 ##Tools:
 - [placehold.it](http://placehold.it) - đặt tạm hình ảnh vào trang web.
