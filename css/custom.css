@@ -6,6 +6,10 @@ p.introtext {text-align:center; line-height:1.1em;}
 p.bigtext {font-size:1.6em; color:red;}
 
 div.yellow-bg {background: #F7F8E0;}
+div.light-green-bg {background:#BCF5A9;}
+div.dark-green-bg {background:#0B610B;}
+
+
 div.closing-line p {font-size: 80%;}
 
 div.home-left-content {padding: 0 2em; }
