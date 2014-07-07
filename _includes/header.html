@@ -1,7 +1,19 @@
 <header>
-<div class="dark-green-bg">
+<!-- hiển thị trên màn hình trung bình trở lên -->
+<div class="dark-green-bg show-for-medium-up">
 	<div class="row collapse">
 		<div class="large-12 columns">
+			<h1><a class="site-title" href="{{ site.baseurl }}/"><img class="hvlogo" src="{{ site.baseurl }}/hvlogo.svg" /></a></h1>
+    		</div>
+    	</div>
+
+	{% include site-nav.html %}
+</div>
+
+<!-- hiển thị trên màn hình nhỏ, điện thoại -->
+<div class="dark-green-bg show-for-small-only">
+	<div class="row collapse">
+		<div class="small-11 columns small-centered">
 			<h1><a class="site-title" href="{{ site.baseurl }}/"><img class="hvlogo" src="{{ site.baseurl }}/hvlogo.svg" /></a></h1>
     		</div>
     	</div>
