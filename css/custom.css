@@ -18,4 +18,4 @@ div.home-left-content {padding: 0 2em; }
 p.footer-text {font-size:80%; color:#fff; text-align:center;}
 
 /** điều chỉnh lại một chút cho phù hợp với phần giới thiệu **/
-.accordion dd { padding: 0; }
+dd.accordion .content { padding: 0; }
