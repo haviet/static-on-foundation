@@ -16,6 +16,3 @@ div.closing-line p {font-size: 80%;}
 div.home-left-content {padding: 0 2em; }
 
 p.footer-text {font-size:80%; color:#fff; text-align:center;}
-
-/** điều chỉnh lại một chút cho phù hợp với phần giới thiệu **/
-dd.accordion-navigation div.content { padding: 0 !important; }
