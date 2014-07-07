@@ -1,10 +1,14 @@
 ---
 layout: default
 ---
-
-<div class="row collapse">
+<!-- chỉ hiển thị trên màn hình cỡ trung bình trở lên -->
+<div class="row collapse show-for-medium-up">
   {% include tab-billboard-content.html %}
 </div>
+
+<!-- chỉ hiển thị trên màn hình nhỏ -->
+{% include billboard-content/tab2.html %}
+
 
 <div class="row collapse">
   <h3>Các sản phẩm khác</h3>
