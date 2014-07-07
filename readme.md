@@ -1,6 +1,6 @@
 Tách từ nhánh static của `haviet.github.com` ra đây cho tiện làm và preview online. Để trong một nhánh của repo khác mỗi lần làm & update quá lằng nhằng.
 
-<div><p style="color:#ff0000;">Test html style in .md file</p></div>
+<div><p style="font-size:2em;">Test html style in .md file</p></div>
 
 ##Working:
 - Design: http://nikenhn.weblogs.us/haviet/
