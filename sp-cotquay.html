@@ -1,16 +1,19 @@
 ---
 layout: default
 ---
-
-<div class="row collapse">
-  <p class="introtext bigtext">Content tab gioi thieu chi tiet (thiet ke dien hinh, tong hop vi tri, hinh anh  minh hoa.</p>
+<!-- chỉ hiển thị trên màn hình cỡ trung bình trở lên -->
+<div class="row collapse show-for-medium-up">
+  {% include tab-billboard-content.html %}
 </div>
 
-<div class="row collapse">
-  <p>Link den cac san pham khac</p>
+<!-- chỉ hiển thị trên màn hình nhỏ -->
+<div class="show-for-small-only">
+  {% include billboard-content/tab3.html %}
+  {% include billboard-content/tab1.html %}
 </div>
 
 
 <div class="row collapse">
-  <p class="introtext bigtext">san pham cot quay</p>
+  <h3>Các sản phẩm khác</h3>
+  {% include sp-block-list.html %}
 </div>
