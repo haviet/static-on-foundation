@@ -20,6 +20,7 @@ layout: default
 	</div>
 </div>
 
+<!-- hiển thị trên màn hình lớn -->
 <div class="row show-for-medium-up clearfix">
 	<div class="medium-8 columns">
 		<h3>Giới thiệu chung</h3>
@@ -45,5 +46,20 @@ layout: default
 		  	</li>
 			{% endfor %}
 		</ul>		
+	</div>
+</div>
+
+<!-- hiển thị trên màn hình nhỏ -->
+<div class="row show-for-small-only">
+	<div class="columns">
+		<h3>Giới thiệu chung</h3>
+		<p>Nội dung phần giới thiệu chung</p>
+		<p><img src="http://placehold.it/640x400" /></p>
+		<h3>Sản phẩm tiêu biểu</h3>
+		<ul>
+			{% for link in site.data.link-bigblock %}
+				<li><a href="{{ site.baseurl }}/{{ link.linkto }}">{{ link.name }}</a></li>
+			{% endfor %}
+		</ul>
 	</div>
 </div>
