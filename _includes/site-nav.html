@@ -1,0 +1,34 @@
+<div class="row">
+	<div class="columns">
+		<nav class="top-bar" data-topbar data-options="is_hover: false">
+		  <ul class="title-area">
+		    <li class="name">
+		      <h1><a href="{{ site.baseurl }}/">Havico Corp.</a></h1>
+		    </li>
+		     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+		    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+		  </ul>
+
+		  <section class="top-bar-section">
+		    <!-- Right Nav Section -->
+		    <ul class="right">
+		      <li class="has-dropdown active">
+		        <a href="#">San pham tieu bieu</a>
+		        <ul class="dropdown">
+					{% for link in site.data.link-bigblock %}
+						<li><a href="{{ site.baseurl }}/{{ link.linkto }}">{{ link.name }}</a></li>
+					{% endfor %}
+		        </ul>
+		      </li>
+		    </ul>
+
+		    <!-- Left Nav Section -->
+		    	<ul class="left">
+		    		{% for menu in site.data.sitenav %}
+						<li><a href="{{ site.baseurl }}/{{ menu.link }}/">{{ menu.name }}</a></li>
+					{% endfor %}
+				</ul>
+		  </section>
+		</nav>
+	</div>
+</div>

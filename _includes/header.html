@@ -2,20 +2,10 @@
 
 <div class="row">
 	<div class="columns">
-  		<h2><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></h2>
+  		<br><h1><a class="site-title" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/sdk-img/logohv.svg" alt="{{ site.title }}"/></a></h1><br>
   	</div>
 </div>
 
-<nav class="site-nav">
-  <div class="row">
-  		<div class="columns">
-	    	<ul class="site-navigation">
-	      		{% for menu in site.data.sitenav %}
-	      			<li><a href="{{ site.baseurl }}/{{ menu.link }}/">{{ menu.name }}</a></li>
-	      		{% endfor %}
-	    	</ul>
-		</div>
-  </div>
-</nav>
+{% include site-nav.html %}
 
 </header>
