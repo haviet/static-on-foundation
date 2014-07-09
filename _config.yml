@@ -1,0 +1,12 @@
+# Site settings
+title: "Haviet"
+email: "kienhaviet@hotmail.com"
+description: "website cua cty haviet, thiet ke boi nikenhn."
+baseurl: "/static-on-foundation"
+url: "http://yourdomain.com"
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+permalink: pretty
