@@ -1,8 +1,9 @@
 /* custom site css */
 
 .closing-line p, p.contact-line { font-size: 80%; }
-.footer-bg { padding: 1em 0; }
+.footer-bg { padding: 2em 0 1em; }
 .text-centered { text-align: center; }
 .text-right { text-align: right; }
 .light-green-bg { background: #D8F6CE; }
-.dark-green-bg { background: #0B610B;
+.dark-green-bg { background: #0B610B; }
+.footer-icon { width: 48px; }
