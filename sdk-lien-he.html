@@ -8,3 +8,22 @@ layout: default
 		<p>muc lien he</p>
 	</div>
 </div>
+
+<div class="row show-for-medium-up">
+	<div class="columns">
+		<ul class="medium-block-grid-3">
+		{% for contact in site.data.contacts %}
+			<li>
+				<img src="{{ contact.imagelink }}" />
+				<h5>{{ contact.name }}</h5>
+				<p>{{ contact.desc }}</p>
+				<p>
+					<span>tel-icon.</span> {{ contact.tel }}<br>
+					<span>email-icon.</span> {{ contact.email }}
+				</p>
+			</li>
+		
+		{% endfor %}
+		</ul>
+	</div>
+</div>
