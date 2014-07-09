@@ -3,3 +3,4 @@ _site
 template-folder
 Thumbs.db
 desktop.ini
+._*
