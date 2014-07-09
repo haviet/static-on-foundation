@@ -2,5 +2,6 @@
 .closing-line p { font-size: 80%; }
 .footer-bg { padding: 1em 0; }
 .text-centered { text-align: center; }
+.text-right { text-align: right; }
 .light-green-bg { background: #D8F6CE; }
 .dark-green-bg { background: #0B610B;
