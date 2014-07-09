@@ -1,0 +1,7 @@
+<ul>
+  {% for link in site.data.link-bigblock %}
+    <li>
+      <a href="{{ site.baseurl }}/{{ link.linkto }}">{{ link.name }}</a>
+		</li>
+	{% endfor %}
+</ul>
