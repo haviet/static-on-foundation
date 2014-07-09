@@ -19,3 +19,22 @@ layout: default
 		</div>
 	</div>
 </div>
+
+<div class="row show-for-medium-up clearfix">
+	<div class="medium-8 columns">
+		<p>nội dung giới thiệu chi tiết về công ty</p>
+	</div>
+	<div class="medium-4 columns">
+		<ul class="no-bullet">
+			{% for link in site.data.link-bigblock %}
+		  	<li>
+		  		<a href="{{ site.baseurl }}/{{ link.linkto }}">
+		  			<div>
+		  				<p><img src="{{ link.image }}" /></p>
+		  			</div>
+		  		</a>
+		  	</li>
+			{% endfor %}
+		</ul>		
+	</div>
+</div>
