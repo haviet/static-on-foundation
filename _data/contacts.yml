@@ -1,0 +1,35 @@
+- name: Phòng Hành chính - Nhân sự
+  imagelink: http://placehold.it/320x200
+  desc: blah blah...
+  tel: +84.04 3823 8643
+  email: hcns@haviet.com
+  
+- name: Phòng Đầu tư - Phát triển
+  imagelink: http://placehold.it/320x200
+  desc: blah blah...
+  tel: +84.04 3829 3519 Ext.12
+  email: dautu@haviet.com
+  
+- name: Phòng Chăm sóc Khách hàng
+  imagelink: http://placehold.it/320x200
+  desc: blah blah...
+  tel: +84.04 3829 3519 Ext.14
+  email: cskh@haviet.com
+  
+- name: Phòng Thiết kế
+  imagelink: http://placehold.it/320x200
+  desc: blah blah...
+  tel: +84.04 3829 3519 Ext.19
+  email: thietke@haviet.com
+  
+- name: Phòng Kế toán
+  imagelink: http://placehold.it/320x200
+  desc: blah blah...
+  tel: +84.04 3829 3519 Ext.20
+  email: ketoan@haviet.com
+  
+- name: Phòng Kinh doanh - Dịch vụ
+  imagelink: http://placehold.it/320x200
+  desc: blah blah...
+  tel: +84.04 3829 3519 Ext.23
+  email: kinhdoanh@haviet.com
