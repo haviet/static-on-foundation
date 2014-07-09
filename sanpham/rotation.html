@@ -9,3 +9,27 @@ layout: default
     </div>
   </div>
 </div>
+
+<!-- hiển thị trên màn hình lớn -->
+<div class="row show-for-medium-up">
+  <div class="columns">
+  		{% include sp-bigblock-list.html %}
+  </div>
+</div>
+
+<!-- hiển thị trên màn hình nhỏ -->
+<div class="row show-for-small-only">
+	<div class="columns">
+		<p><img src="http://placehold.it/640x520" /></p>
+		<br>
+		<ul>
+			{% for link in site.data.link-bigblock %}
+		  	<li>
+		  		<a href="{{ site.baseurl }}/{{ link.linkto }}">
+		  			{{ link.name }}
+		  		</a>
+		  	</li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
