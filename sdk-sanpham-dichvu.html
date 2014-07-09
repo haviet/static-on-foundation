@@ -51,17 +51,6 @@ layout: default
 	<div class="columns">
 		<p><img src="http://placehold.it/640x520" /></p>
 		<br>
-		<ul>
-			{% for link in site.data.link-bigblock %}
-		  	<li>
-		  		<a href="{{ site.baseurl }}/{{ link.linkto }}">
-		  			{{ link.name }}
-		  		</a>
-		  	</li>
-			{% endfor %}
-		</ul>
-	</div>
-	<div class="columns">
-		<h3 class="subheader text-centered">Cac vi tri quang cao duoc duy tu va ve sinh thuong xuyen. Dam bao quang cao cua khach hang luon duoc nhin thay trong tinh trang tot nhat.</h3><br><br>
+		{% include sp-list.html %}
 	</div>
 </div>
