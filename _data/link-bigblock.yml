@@ -4,7 +4,7 @@
 
 - name: Trạm trung chuyển bus
   image: http://placehold.it/320x220
-  linkto: sanpham/busstation/
+  linkto: sanpham/bus-station/
 
 - name: Biển trên dải phân cách
   image: http://placehold.it/320x220
@@ -12,7 +12,7 @@
 
 - name: Nhà chờ bus
   image: http://placehold.it/320x220
-  linkto: sanpham/busshelter/
+  linkto: sanpham/bus-shelter/
 
 - name: Biển cột quay
   image: http://placehold.it/320x220
