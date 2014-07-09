@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="row">
+	<div class="large-12 columns">
+		<p>slideshow gioi thieu doanh nghiep</p>
+		<p>muc lien he</p>
+	</div>
+</div>
+
+<div class="row show-for-medium-up"> <!-- hiển thị trên màn hình lớn -->
+	<div class="columns">
+		<ul class="medium-block-grid-3">
+		{% for contact in site.data.contacts %}
+			<li>
+				<img src="{{ contact.imagelink }}" />
+				<h5>{{ contact.name }}</h5>
+				<p>{{ contact.desc }}</p>
+				<p class="contact-line">
+					<span><img src="{{ site.baseurl }}/sdk-img/icon-phone.svg" width="18px" /></span> {{ contact.tel }}<br>
+					<span><img src="{{ site.baseurl }}/sdk-img/icon-email.svg" width="18px" /></span> {{ contact.email }}
+				</p>
+			</li>
+		
+		{% endfor %}
+		</ul>
+	</div>
+</div>
+
+<div class="row show-for-small-only"> <!-- hiển thị trên màn hình nhỏ -->
+	<div class="columns">
+		<ul class="no-bullet text-centered">
+		{% for contact in site.data.contacts %}
+			<li>
+				<h5>{{ contact.name }}</h5>
+				<p class="contact-line">
+					<span><img src="{{ site.baseurl }}/sdk-img/icon-phone.svg" width="18px" /></span> {{ contact.tel }}<br>
+					<span><img src="{{ site.baseurl }}/sdk-img/icon-email.svg" width="18px" /></span> {{ contact.email }}
+				</p>
+			</li>
+		
+		{% endfor %}
+		</ul>
+	</div>
+</div>

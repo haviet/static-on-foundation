@@ -1,3 +1,6 @@
-.DS_Store
 _site
-_config.yml
+.DS_store
+template-folder
+Thumbs.db
+desktop.ini
+._*

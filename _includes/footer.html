@@ -1,72 +1,76 @@
-<!-- hide on small sreen -->
-<div class="show-for-medium-up">
-<div class="row collapse closing-line light-green-bg">
+<!-- hiển thị trên màn hình trung bình trở lên -->
+<div class="row closing-line show-for-medium-up">
+	<div class="columns">
 	<br><br>
-	<div class="medium-10 medium-centered columns">
-		<div class="row collapse">
-			<div class="medium-4 columns text-center">
-				<p><img class="footer-icon" src="{{ site.baseurl }}/img/icon-address.svg" /></p>
-				<p><strong>Office:</strong><br>
-				25/D3, Vuon Dao Villa,<br>
-				Lac Long Quan Rd, Phu Thuong,<br>
-				Tay Ho Dist, Hanoi</p>
-			</div>
-		
-			<div class="medium-4 columns text-center">
-				<p><img class="footer-icon" src="{{ site.baseurl }}/img/icon-phone.svg" /></p>
-				<p><strong>Hotline:</strong><br>
-				(+84 04) 3823 8643 - (+84 04) 3829 3519<br>
-				<strong>Sales Dept.</strong><br>
-				+84 04 3829 3519 <strong>Ext. 19</strong></p>
-		
-			</div>
-		
-			<div class="medium-4 columns end text-center">
-				<p><img class="footer-icon" src="{{ site.baseurl }}/img/icon-email.svg" /></p>
-				<p><strong>Customer Support:</strong><br>
-				info@haviet.com</p>
-				<a href="#" data-reveal-id="myModal" class="tiny button">Reach us!</a>
+	<div class="row footer-bg light-green-bg collapse medium-centered clearfix">
 
-				<div id="myModal" class="reveal-modal large" data-reveal>
-  					<h2>Awesome. I have it.</h2>
-  					<p class="lead">Your couch.  It is mine.</p>
-  					<p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
-  					<a class="close-reveal-modal">&#215;</a>
-				</div>
+		<div class="medium-4 columns text-centered">
+			<p><img class="footer-icon" src="{{ site.baseurl }}/sdk-img/icon-address.svg" /></p>
+			<p><strong>Office:</strong><br>
+			25/D3, Vuon Dao Villa,<br>
+			Lac Long Quan Rd, Phu Thuong,<br>
+			Tay Ho Dist, Hanoi</p>
+		</div>
+	
+		<div class="medium-4 columns text-centered">
+			<p><img class="footer-icon" src="{{ site.baseurl }}/sdk-img/icon-phone.svg" /></p>
+			<p><strong>Hotline:</strong><br>
+			(+84 04) 3823 8643 - (+84 04) 3829 3519<br>
+			<strong>Sales Dept.</strong><br>
+			+84 04 3829 3519 <strong>Ext. 19</strong></p>
+	
+		</div>
+	
+		<div class="medium-4 columns end text-centered">
+			<p><img class="footer-icon" src="{{ site.baseurl }}/sdk-img/icon-email.svg" /></p>
+			<p><strong>Customer Support:</strong><br>
+			info@haviet.com</p>
+			<a href="#" data-reveal-id="myModal" class="tiny button">Reach us!</a>
+	
+			<div id="myModal" class="reveal-modal large" data-reveal>
+	  			<h2>Awesome. I have it.</h2>
+	  			<p class="lead">Your couch.  It is mine.</p>
+	  			<p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
+	  			<a class="close-reveal-modal">&#215;</a>
 			</div>
 		</div>
+
+	</div>
 	</div>
 </div>
+
 </div>
 
-<!-- show for small screen only -->
+<!-- chỉ hiển thị trên màn hình nhỏ -->
 <div class="show-for-small-only">
-	<div class="row collapse light-green-bg text-center">
-		<br><br>
-		<p><img class="footer-icon" src="{{ site.baseurl }}/img/icon-address.svg" /></p>
-		<p><strong>Office:</strong><br>25D3, Vuon Dao Villa,<br>Lac Long Quan Rd., Phu Thuong,<br>Tay Ho Dist., Hanoi<br>
-		<a href="#">Find us on Google maps</a>
-		</p>
-		<p><img class="footer-icon" src="{{ site.baseurl }}/img/icon-phone.svg" /></p>
-		<p><strong>Hotline:</strong><br>(+84 04) 3823 8643 - (+84 04 3829 3519)<br>
-		<strong>Sales Dept.</strong><br>(+84 04) 3829 3519 Ext.19
-		</p>
-		<p><img class="footer-icon" src="{{ site.baseurl }}/img/icon-email.svg" /></p>
-		<p><strong>Customer Support:</strong><br>info@haviet.com</p>
+	<div class="row">
+	<div class="columns closing-line text-centered">
+		<div class="footer-bg light-green-bg">
+			<p><img class="footer-icon" src="{{ site.baseurl }}/sdk-img/icon-address.svg" /></p>
+			<p><strong>Office:</strong><br>25D3, Vuon Dao Villa,<br>Lac Long Quan Rd., Phu Thuong,<br>Tay Ho Dist., Hanoi<br>
+			<a href="#">Find us on Google maps</a>
+			</p>
+			<p><img class="footer-icon" src="{{ site.baseurl }}/sdk-img/icon-phone.svg" /></p>
+			<p><strong>Hotline:</strong><br>(+84 04) 3823 8643 - (+84 04 3829 3519)<br>
+			<strong>Sales Dept.</strong><br>(+84 04) 3829 3519 Ext.19
+			</p>
+			<p><img class="footer-icon" src="{{ site.baseurl }}/sdk-img/icon-email.svg" /></p>
+			<p><strong>Customer Support:</strong><br>info@haviet.com</p>
+		</div>
+	</div>
 	</div>
 </div>
 
-<footer>
-	<div class="row collapse dark-green-bg">
-		<br><p class="footer-text">&copy;2014. Havico Corp. All right reserved.</p>
-	</div>
+<footer class="site-footer">
+  <div class="row">
+  	<div class="columns">
+  		{% if site.description & site.admin-email %}<p><small>&copy; Copyright. {{ site.description }} - {{ site.admin-email }}</small></p>{% endif %}
+  	</div>
+  </div>
 </footer>
 
-
-<!-- script -->
-<script src="{{ site.baseurl }}/js/vendor/jquery.js"></script>
-<script src="{{ site.baseurl }}/js/foundation.min.js"></script>
+<script src="{{ site.baseurl }}/sdk-js/vendor/jquery.js"></script>
+<script src="{{ site.baseurl }}/sdk-js/foundation.min.js"></script>
 <script>
   $(document).foundation();
 </script>
-

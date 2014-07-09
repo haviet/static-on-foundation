@@ -1,0 +1,13 @@
+- link: sdk-img/slideshow1000x400-01.jpg
+  alt: slide-1
+  caption: this is the first slideshow
+
+- link: sdk-img/slideshow1000x400-02.jpg
+  alt: slide-2
+  caption: this is the second slideshow
+
+- link: sdk-img/slideshow1000x400-03.jpg
+  alt: slide-3
+  caption: this is the third slideshow
+
+
