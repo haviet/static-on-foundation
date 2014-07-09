@@ -1,19 +1,22 @@
 ---
 layout: default
 ---
-<!-- slideshow chỉ hiển thị trên màn hình trung bình trở lên -->
-<div class="row collapse show-for-medium-up">
-  <div class="medium-12 columns">
-    {% include slideshow-big.html %}
-  </div>
+
+<div class="row show-for-medium-up">
+	<div class="columns">
+		<ul class="home-slideshow" data-orbit>
+	    	{% for slideshow in site.data.home-slideshow %}
+		    <li>
+		    	<img src="{{ site.baseurl }}/{{ slideshow.link }}" alt="{{ slideshow.alt }}" />
+		    	<div class="orbit-caption">{{ slideshow.caption }}</div>
+		    </li>
+	    	{% endfor %}
+	  	</ul>
+	</div>
 </div>
 
-<div class="row collapse">
-  <p class="introtext bigtext">Gioi thieu ngan gon ve cong ty trong khoang hai dong.<br>Cung co the trich dan mot cau slogan nao do cung duoc.</p>
-</div>
-
-{% include home-content.html %}
-
-<div class="row collapse">
-  <br><br><p class="introtext bigtext">Cam ket ve gia tri, loi ich ma cong ty mang den cho khach hang.</p>
+<div class="row show-for-small-only">
+	<div class="columns">
+    	<img src="http://placehold.it/640x520" />
+    </div>
 </div>

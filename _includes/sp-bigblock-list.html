@@ -1,0 +1,13 @@
+<br>
+<ul class="small-block-grid-2 medium-block-grid-3">
+	{% for link in site.data.link-bigblock %}
+  	<li>
+  		<a href="{{ site.baseurl }}/{{ link.linkto }}">
+  			<div>
+  				<p><img src="{{ link.image }}" /></p>
+  				<p class="text-centered">{{ link.name }}</p>
+  			</div>
+  		</a>
+  	</li>
+	{% endfor %}
+</ul>

@@ -1,0 +1,24 @@
+- name: Biển tấm lớn
+  image: http://placehold.it/320x220
+  linkto: sp-billboard/
+
+- name: Trạm trung chuyển bus
+  image: http://placehold.it/320x220
+  linkto: sp-busstation/
+
+- name: Biển trên dải phân cách
+  image: http://placehold.it/320x220
+  linkto: sp-lightbox/
+
+- name: Nhà chờ bus
+  image: http://placehold.it/320x220
+  linkto: sp-busshelter/
+
+- name: Biển cột quay
+  image: http://placehold.it/320x220
+  linkto: sp-rotation/
+
+- name: Kios bán hàng đa năng
+  image: http://placehold.it/320x220
+  linkto: sp-kiosk/
+
