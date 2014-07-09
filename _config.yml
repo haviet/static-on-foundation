@@ -2,7 +2,7 @@
 title: haviet template
 admin-email: nikenhn@gmail.com
 description: "Template này sử dụng Foundation Framework. Dựng bởi Nikenh."
-baseurl: ""
+baseurl: "/static-on-foundation"
 url: "http://yourdomain.com"
 
 # Build settings
