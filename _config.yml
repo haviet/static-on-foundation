@@ -1,6 +1,6 @@
 # Site settings
 title: "Haviet"
-email: "kienhaviet@hotmail.com"
+admin-email: "kienhaviet@hotmail.com"
 description: "website cua cty haviet, thiet ke boi nikenhn."
 baseurl: "/static-on-foundation"
 url: "http://yourdomain.com"
