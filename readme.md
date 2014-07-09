@@ -1,3 +1,5 @@
+Chưa có kinh nghiệm nên dựng xong thấy view hơi chuối. Backup lại để làm cái khác.
+
 Tách từ nhánh static của `haviet.github.com` ra đây cho tiện làm và preview online. Để trong một nhánh của repo khác mỗi lần làm & update quá lằng nhằng.
 
 ##Working:
