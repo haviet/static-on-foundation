@@ -10,5 +10,5 @@ header img { width:280px; margin: 0.5em 0 0.2em -0.2em; }
 .dark-green-bg { background: #0B610B; }
 .footer-icon { width: 48px; }
 
-.bb_true { background: red; }
-.bb_false { background: #333; }
+.bb_true { background: #fff; }
+.bb_false { background: #ccc; }
