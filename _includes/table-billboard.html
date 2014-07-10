@@ -1,30 +1,22 @@
 <table>
   <thead>
     <tr>
-      <th width="200">Table Header</th>
-      <th>Table Header</th>
-      <th width="150">Table Header</th>
-      <th width="150">Table Header</th>
+      <th width="30">Mã số</th>
+      <th width="100">Tên</th>
+      <th>Mô tả</th>
+      <th width="100">Kích thước</th>
+      <th width="50">Tình trạng</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Content Goes Here</td>
-      <td>This is longer content Donec id elit non mi porta gravida at eget metus.</td>
-      <td>Content Goes Here</td>
-      <td>Content Goes Here</td>
-    </tr>
-    <tr>
-      <td>Content Goes Here</td>
-      <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
-      <td>Content Goes Here</td>
-      <td>Content Goes Here</td>
-    </tr>
-    <tr>
-      <td>Content Goes Here</td>
-      <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
-      <td>Content Goes Here</td>
-      <td>Content Goes Here</td>
+    {% for bb in site.data.list-billboard %}
+      <td>{{ bb.code }}</td>
+      <td>{{ bb.name }}</td>
+      <td>{{ bb.desc }}</td>
+      <td>{{ bb.size }}</td>
+      <td>{{ bb.status }}</td>
+    {% endfor %}
     </tr>
   </tbody>
 </table>
