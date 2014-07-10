@@ -12,7 +12,7 @@
     {% for bb in site.data.list-billboard %}
     <tr>
       <td>{{ bb.code }}</td>
-      <td>{{ bb.name }}</td>
+      <td><a href="{{ site.baseurl }}/{{ bb.link }}">{{ bb.name }}</a></td>
       <td>{{ bb.desc }}</td>
       <td>{{ bb.size }}</td>
       <td>{{ bb.status }}</td>
