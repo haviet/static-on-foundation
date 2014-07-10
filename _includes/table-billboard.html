@@ -9,14 +9,14 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
     {% for bb in site.data.list-billboard %}
+    <tr>
       <td>{{ bb.code }}</td>
       <td>{{ bb.name }}</td>
       <td>{{ bb.desc }}</td>
       <td>{{ bb.size }}</td>
       <td>{{ bb.status }}</td>
-    {% endfor %}
     </tr>
+    {% endfor %}
   </tbody>
 </table>
