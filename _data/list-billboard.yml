@@ -1,21 +1,239 @@
-- name: Hồ Tùng Mậu
-  code: HTM-01
-  desc: Ngã ba Hồ Tùng Mậu - Lê Đức Thọ
-  pos: 105.77158212661743,21.038013835541275
-  status: perfect
-  available: no
-  electric: yes/no
-  view_distance: 1000m
-  size: 13m x 6.5m
-  link: sanpham/data-billboard/ho-tung-mau/
-  
-- name: Trần Đại Nghĩa
-  code: BK-01
-  desc: Ngã ba Đại Cồ Việt - Trần Đại Nghĩa
-  pos: 105.84371209144592,21.00743894015877
-  status: good
-  available: yes
+- codename: CG11
+  location: Cầu Giấy
+  description: "Ngã tư Hồ Tùng Mậu - Lê Đức Thọ, Cầu Giấy, HN"
+  size: 13.5m x 6.4m
   electric: yes
-  view_distance: 500m
+  status: "đang sử dụng tốt"
+  available: no
+  images:
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+
+- codename: CG12
+  location: Cầu Giấy
+  description: "Tường rào nhà văn hóa phường Yên Hòa, đường Trần Thái Tông, HN"
   size: 10m x 6m
-  link: link/to/page
+  electric: yes
+  status: "đang sử dụng tốt"
+  available: no
+  images:
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+
+- codename: BXMD2
+  location: Cầu Giấy
+  description: "Cổng vào bến xe Mỹ Đình II, đường Lê Đức Thọ, HN"
+  size: 10m x 6m
+  electric: no
+  status: "đang sử dụng tốt"
+  available: yes
+  images:
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+
+- codename: CB1A
+  location: Cổ Bi
+  description: "Trục quốc lộ 1A thuộc xã Cổ Bi, Gia Lâm, HN"
+  size: 15m x 8m
+  electric: yes
+  status: "đang sử dụng tốt"
+  available: no
+  images:
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+
+- codename: CB2A
+  location: Cổ Bi
+  description: "Trục quốc lộ 1A thuộc xã Cổ Bi, Gia Lâm, HN"
+  size: 15m x 8m
+  electric: yes
+  status: "đang sử dụng tốt"
+  available: no
+  images:
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+
+- codename: CB5A
+  location: Cổ Bi
+  description: "Trục quốc lộ 1A thuộc xã Cổ Bi, Gia Lâm, HN"
+  size: 15m x 8m
+  electric: yes
+  status: "đang sử dụng tốt"
+  available: yes
+  images:
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+
+- codename: HBT01
+  location: Hai Bà Trưng
+  description: "Ngã ba Đại Cồ Việt - Trần Khát Chân, HN"
+  size: 10m x 6m
+  electric: yes
+  status: "đang sử dụng tốt"
+  available: yes
+  images:
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+
+- codename: HAIDUONG
+  location: Hải Dương
+  description: "Gần cầu vượt Phú Lương, Hải Dương"
+  size: 20m x 10m
+  electric: yes
+  status: "đang sử dụng tốt"
+  available: yes
+  images:
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+
+- codename: HM01A
+  location: Hoàng Mai
+  description: "Đầu ngã ba Pháp Vân – Cầu Rẽ, HN"
+  size: 15m x 8m
+  electric: yes
+  status: "đang sử dụng tốt"
+  available: yes
+  images:
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+
+- codename: HM02B
+  location: Hoàng Mai
+  description: "Trục cầu Thanh Trì, HN"
+  size: 12.5m x 6.4m
+  electric: yes
+  status: "đang sử dụng tốt"
+  available: no
+  images:
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+
+- codename: DIEM53B
+  location: Kim Chung
+  description: "Cột mốc giao thông H6/2-40m trục cao tốc TL-NB, Xã Kim Chung, Đông Anh, HN"
+  size: 19.5m x 6.5m
+  electric: yes
+  status: "đang sử dụng tốt"
+  available: no
+  images:
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+
+- codename: LB02
+  location: Long Biên
+  description: "Khu vực vòng xoay Gia Lâm, Long Biên, HN"
+  size: 11.5m x 6.5m
+  electric: yes
+  status: "đang sử dụng tốt"
+  available: no
+  images:
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+
+- codename: 16B
+  location: Long Biên
+  description: "Gần trạm soát vé QL1A, phường Phúc Lợi, Long Biên, HN"
+  size: 15m x 8m
+  electric: no
+  status: "đang sử dụng tốt"
+  available: no
+  images:
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+
+- codename: DIEM34B
+  location: Nam Hồng
+  description: "Cột mốc giao thông H8/6-10m trục cao tốc TL-NB, Xã Nam Hồng, Đông Anh, HN"
+  size: 18m x 7m
+  electric: yes
+  status: "đang sử dụng tốt"
+  available: no
+  images:
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+
+- codename: DIEM34A
+  location: Thanh Xuân
+  description: "Cột mốc giao thông H4/11trục cao tốc TL-NB, Xã Thanh Xuân, huyện Sóc Sơn, HN"
+  size: 15m x 8m
+  electric: yes
+  status: "đang sử dụng tốt"
+  available: no
+  images:
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+
+- codename: QL32
+  location: Từ Liêm
+  description: "Gần trường ĐH Công nghiệp Hà Nội"
+  size: 15m x 8m
+  electric: yes
+  status: "đang sử dụng tốt"
+  available: no
+  images:
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
+    - sizesmall: "lienket/den/anhnho"
+      sizebig: "lienket/den/anhto"
