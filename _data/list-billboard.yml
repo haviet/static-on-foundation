@@ -1,0 +1,21 @@
+- name: Hồ Tùng Mậu
+  code: HTM-01
+  desc: Ngã ba Hồ Tùng Mậu - Lê Đức Thọ
+  pos: 105.77158212661743,21.038013835541275
+  status: perfect
+  available: no
+  electric: yes/no
+  view_distance: 1000m
+  size: 13m x 6.5m
+  link: link/to/page
+  
+- name: Trần Đại Nghĩa
+  code: BK-01
+  desc: Ngã ba Đại Cồ Việt - Trần Đại Nghĩa
+  pos: 105.84371209144592,21.00743894015877
+  status: good
+  available: yes
+  electric: yes
+  view_distance: 500m
+  size: 10m x 6m
+  link: link/to/page
