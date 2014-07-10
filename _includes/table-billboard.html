@@ -2,20 +2,20 @@
   <thead>
     <tr>
       <th>Mã số</th>
-      <th>Tên</th>
-      <th>Mô tả</th>
+      <th>Mô tả vị trí</th>
       <th>Kích thước</th>
-      <th>Tình trạng</th>
+      <th width="40px">E.</th>
+      <th width="40px">A.</th>
     </tr>
   </thead>
   <tbody>
-    {% for bb in site.data.list-billboard %}
+  	{% for bb in site.data.haviet_BBD %}
     <tr>
-      <td>{{ bb.code }}</td>
-      <td><a href="{{ site.baseurl }}/{{ bb.link }}">{{ bb.name }}</a></td>
-      <td>{{ bb.desc }}</td>
+      <td>{{ bb.codename }}</td>
+      <td>{{ bb.description }}</td>
       <td>{{ bb.size }}</td>
-      <td>{{ bb.status }}</td>
+      <td class="bb_{{ bb.electric }}"> </td>
+      <td class="bb_{{ bb.available }}"> </td>
     </tr>
     {% endfor %}
   </tbody>
