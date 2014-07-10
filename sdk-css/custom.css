@@ -1,7 +1,7 @@
 /* custom site css */
 
 header { background: #0B610B; }
-header img { width:280px; margin-left:-5px; margin-top:1em; }
+header img { width:280px; margin: 0.5em 0 0.2em -0.2em; }
 .closing-line p, p.contact-line { font-size: 80%; }
 .footer-bg { padding: 2em 0 1em; }
 .text-centered { text-align: center; }
