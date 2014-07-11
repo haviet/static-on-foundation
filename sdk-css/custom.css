@@ -8,7 +8,7 @@ header img { width:280px; margin: 0.5em 0 0.2em -0.2em; }
 .light-green-bg { background: #D8F6CE; }
 .dark-green-bg { background: #0B610B; }
 .footer-icon { width: 48px; }
-.fbg { background: url('/sdk-img/footer-bg-01.png') repeat-x top left; }
+.fbg { background: url('sdk-img/footer-bg-01.png') repeat-x top left; }
 
 .bb_true { background: orange; }
 .bb_false { background: green; }
