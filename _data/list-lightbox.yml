@@ -1,0 +1,22 @@
+#danh sách biển dải phân cách
+
+- distric: #thuoc quan
+  number_of_group: #so tuyen tong cong
+  - street_name: #ten tuyen pho
+    number_total: #so luong
+    - codename: #ma so
+      desc: #mo ta vi tri
+      size: #kich thuoc
+      electric: #tinh trang dien
+      status: #tinh trang hien tai
+      cordinate: #toa do (gmaps)
+      images:
+      - small: #size small
+        big: #size big
+        caption: #ghi chu
+      - small: #
+        big: #
+        caption: #
+      - small:
+        big:
+        caption: #
