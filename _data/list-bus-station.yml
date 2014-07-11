@@ -1,0 +1,21 @@
+#danh sách nhà chờ, xếp theo quận huyện & tuyến phố
+
+- codename: #ma so
+  name: #ten goi
+  location: #mo ta vi tri
+  size: #kich thuoc
+  number_total: #so mat bien tong cong
+  number_used: #so mat bien da su dung
+  number_available: #so mat bien con trong
+  status: #tinh trang hien tai
+  cordinate: #toa do (gmaps)
+  images:
+  - small: #size small
+    big: #size big
+    caption: #ghi chu
+  - small: #
+    big: #
+    caption: #
+  - small:
+    big:
+    caption: #
