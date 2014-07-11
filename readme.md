@@ -1,3 +1,5 @@
+Layout gần xong rồi. Sắp tới làm content nữa mới đáng cbn ngại.
+
 ##Working:
 - Design: http://nikenhn.weblogs.us/haviet/
 
