@@ -1,0 +1,20 @@
+#danh sách nhà chờ
+
+- distric: #thuoc quan  
+  - codename: #ma so
+    name: #ten goi
+    desc: #mo ta
+    street: #tren pho
+    size-big: #kich thuoc chinh
+    size-small: #kich thuoc dau hoi
+    electric: #co dien khong (yes/no)
+    available: #co trong khong (yes/no)
+    status: #tinh trang hien tai
+    cordinate: #toa do (gmaps)
+    images:
+    - small: #size small
+      big: #size big
+    - small:
+      big:
+    - small:
+      big:
