@@ -9,7 +9,7 @@ header img { width:280px; margin: 0.5em 0 0.2em -0.2em; }
 .dark-green-bg { background: #0B610B; }
 .footer-icon { width: 48px; }
 .footer-bg { color: #0B3B0B; }
-.reach-us { margin-top:8px; }
+.reach-us { margin-top:8px; background: green; }
 .fbg { background: url('sdk-img/footer-bg-01.png') repeat-x top left; }
 .ctc { border-left: 1px solid #B4D5A8; border-right: 1px solid #B4D5A8; }
 
