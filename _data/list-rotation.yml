@@ -2,14 +2,15 @@
 #khi nào có danh sách cập nhật theo cấu trúc này
 
 - distric: #thuoc quan
-  number_of_group: #so tuyen tong cong
   - street_name: #ten tuyen pho
     number_total: #so luong
     - codename: #ma so
       desc: #mo ta vi tri
-      size: #kich thuoc
-      electric: #tinh trang dien
+      size_top: #kich thuoc bien chinh
+      size_banner: #kich thuoc banner
+      electric: #tinh trang dien no/yes
       status: #tinh trang hien tai
+      available: #tinh trang thue no/yes
       cordinate: #toa do (gmaps)
       images:
       - small: #size small
