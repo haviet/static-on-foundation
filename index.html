@@ -49,7 +49,7 @@ layout: default
 <div class="row">
 	<div class="columns">
 		{% for post in site.posts %}
-		{% if post.tag contain "billboard" %}
+		{% if post.tag == "billboard" %}
 		<p>{{ post.codename }} - {{ post.title }}</p>
 		{% endif %}
 		{% endfor %}
