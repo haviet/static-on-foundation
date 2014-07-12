@@ -11,7 +11,7 @@
   <tbody>
   	{% for bb in site.data.list-billboard %}
     <tr>
-      <td><a href="{{ site.baseurl }}/sanpham/BBD/{{ bb.codename }}">{{ bb.codename }}</a></td>
+      <td>{{ bb.codename }}</td>
       <td>{{ bb.description }}</td>
       <td>{{ bb.size }}</td>
       <td class="bb_{{ bb.electric }}"> </td>
