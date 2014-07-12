@@ -51,6 +51,11 @@ layout: default
 		{% for post in site.posts %}
 		{% if post.tags contains "billboard" %}
 		<p>{{ post.codename }} - {{ post.title }}</p>
+{% for prv in post.preview_img %}
+<ul>
+<li>preview image is {{ prv.img }}</li>
+</ul>
+{% endfor %}
 		{% endif %}
 		{% endfor %}
 	</div>
