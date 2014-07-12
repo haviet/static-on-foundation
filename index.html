@@ -45,3 +45,13 @@ layout: default
 		</div>
 	</div>
 </div>
+
+<div class="row">
+	<div class="columns">
+		{% for post in site.posts %}
+		{% if post.tag contain "billboard" %}
+		<p>{{ post.codename }} - {{ post.title }}</p>
+		{% endif %}
+		{% endfor %}
+	</div>
+</div>
