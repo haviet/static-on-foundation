@@ -3,9 +3,9 @@ title: "Haviet"
 admin-email: "kienhaviet@hotmail.com"
 description: "website cua cty haviet, thiet ke boi nikenhn."
 baseurl: "/static-on-foundation"
-url: "http://yourdomain.com"
-twitter_username: jekyllrb
-github_username:  jekyll
+foundation: haviet/foundation
+slick: haviet/slick
+imgs: haviet/images
 
 # Build settings
 markdown: kramdown

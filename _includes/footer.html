@@ -5,7 +5,7 @@
 	<div class="row footer-bg light-green-bg collapse medium-centered clearfix">
 	
 		<div class="medium-3 columns end text-centered">
-			<p><img class="footer-icon" src="{{ site.baseurl }}/sdk-img/icon-email.svg" /></p>
+			<p><img class="footer-icon" src="{{ site.baseurl }}/{{ site.imgs }}/icon-email.svg" /></p>
 			<p><strong>Customer Support:</strong><br>
 			info@haviet.com<br>
 			<a href="#" data-reveal-id="lienhe" class="label round reach-us">Reach us!</a>
@@ -16,7 +16,7 @@
 		</div>
 
 		<div class="medium-4 columns text-centered ctc">
-			<p><img class="footer-icon" src="{{ site.baseurl }}/sdk-img/icon-address.svg" /></p>
+			<p><img class="footer-icon" src="{{ site.baseurl }}/{{ site.imgs }}/icon-address.svg" /></p>
 			<p><strong>Office:</strong><br>
 			25/D3, Vuon Dao Villa,<br>
 			Lac Long Quan Rd, Phu Thuong,<br>
@@ -24,7 +24,7 @@
 		</div>
 
 		<div class="medium-5 columns text-centered">
-			<p><img class="footer-icon" src="{{ site.baseurl }}/sdk-img/icon-phone.svg" /></p>
+			<p><img class="footer-icon" src="{{ site.baseurl }}/{{ site.imgs }}/icon-phone.svg" /></p>
 			<p><strong>Hotline:</strong><br>
 			(+84 04) 3823 8643 - (+84 04) 3829 3519<br>
 			<strong>Sales Dept.</strong><br>
@@ -43,15 +43,15 @@
 	<div class="row">
 	<div class="columns closing-line text-centered">
 		<div class="footer-bg light-green-bg">
-			<p><img class="footer-icon" src="{{ site.baseurl }}/sdk-img/icon-address.svg" /></p>
+			<p><img class="footer-icon" src="{{ site.baseurl }}/{{ site.imgs }}/icon-address.svg" /></p>
 			<p><strong>Office:</strong><br>25D3, Vuon Dao Villa,<br>Lac Long Quan Rd., Phu Thuong,<br>Tay Ho Dist., Hanoi<br>
 			<a href="#">Find us on Google maps</a>
 			</p>
-			<p><img class="footer-icon" src="{{ site.baseurl }}/sdk-img/icon-phone.svg" /></p>
+			<p><img class="footer-icon" src="{{ site.baseurl }}/{{ site.imgs }}/icon-phone.svg" /></p>
 			<p><strong>Hotline:</strong><br>(+84 04) 3823 8643 - (+84 04 3829 3519)<br>
 			<strong>Sales Dept.</strong><br>(+84 04) 3829 3519 Ext.19
 			</p>
-			<p><img class="footer-icon" src="{{ site.baseurl }}/sdk-img/icon-email.svg" /></p>
+			<p><img class="footer-icon" src="{{ site.baseurl }}/{{ site.imgs }}/icon-email.svg" /></p>
 			<p><strong>Customer Support:</strong><br>info@haviet.com</p>
 		</div>
 	</div>
@@ -61,7 +61,7 @@
 <footer class="site-footer">
   <div class="row">
   	<div class="columns">
-  		<div style="background: url('{{ site.baseurl }}/sdk-img/footer-bg-01.png') repeat-x top left;">
+  		<div style="background: url('{{ site.baseurl }}/{{ site.imgs }}/footer-bg-01.png') repeat-x top left;">
   		<!-- {% if site.description & site.admin-email %}<p><small>&copy; Copyright. {{ site.description }} - {{ site.admin-email }}</small></p>{% endif %} -->
   		<br><br>
   		<p class="text-centered contact-line" style="color:#bbb; line-height:1.2em;">
@@ -72,8 +72,9 @@
   </div>
 </footer>
 
-<script src="{{ site.baseurl }}/sdk-js/vendor/jquery.js"></script>
-<script src="{{ site.baseurl }}/sdk-js/foundation.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.6/slick.min.js"/></script>
+<script src="{{ site.baseurl }}/{{ site.foundation }}/js/vendor/jquery.js"></script>
+<script src="{{ site.baseurl }}/{{ site.foundation }}/js/foundation.min.js"></script>
 <script>
   $(document).foundation();
 </script>
