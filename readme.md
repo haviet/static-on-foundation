@@ -15,3 +15,7 @@ Layout gần xong rồi. Sắp tới làm content nữa mới đáng cbn ngại.
 - `overflow: auto;` không hoạt động tốt trên mọi trình duyệt. [Giải pháp đây](http://filamentgroup.github.io/Overthrow/).
 - Foundation không hỗ trợ Orbit nữa. Có thể [thay bằng slick](https://github.com/kenwheeler/slick)
 - Customize foundation: Gutter 1.250em, Max width: 71.250em.
+
+
+##Ref.
+- http://mapsed.apphb.com/ - bản đồ
