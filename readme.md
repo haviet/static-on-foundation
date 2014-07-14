@@ -19,3 +19,11 @@ Layout gần xong rồi. Sắp tới làm content nữa mới đáng cbn ngại.
 
 ##Ref.
 - http://mapsed.apphb.com/ - bản đồ
+- http://designgeekz.com/responsive-jquery-image-sliders/ - slide show
+- http://designgeekz.com/responsive-css-frameworks/ - css frameworks
+- http://designgeekz.com/free-responsive-jquery-carousel-slider-plugins/ - carousel slider
+- http://designgeekz.com/15-best-bootstrap-tools-for-designers/ - boostrap tools
+- https://developers.google.com/maps/documentation/staticmaps/index - static map from google
+- http://senthilraj.github.io/ScrollNaviJs/ - fix scroll menu
+- https://github.com/dragdropsite/waterpipe.js/ - generate background random.
+- http://www.sequencejs.com/themes/modern-slide-in/ - interesting slideshow
