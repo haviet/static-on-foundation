@@ -12,3 +12,4 @@ Layout gần xong rồi. Sắp tới làm content nữa mới đáng cbn ngại.
 
 ##Notice:
 - `overflow: auto;` không hoạt động tốt trên mọi trình duyệt. [Giải pháp đây](http://filamentgroup.github.io/Overthrow/).
+- Foundation không hỗ trợ Orbit nữa. Có thể [thay bằng slick](https://github.com/kenwheeler/slick)
