@@ -1,4 +1,4 @@
-Layout gần xong rồi. Sắp tới làm content nữa mới đáng cbn ngại.
+Lưu một nhánh làm bản backup cho dự án website đang thực hiện.
 
 ##Working:
 - Design: http://nikenhn.weblogs.us/haviet/
