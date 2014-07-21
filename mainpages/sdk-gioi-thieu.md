@@ -1,11 +1,15 @@
 ---
 layout: default
+title: Giới thiệu
+tags: topnav
+permalink: intro/
+w: 1
 ---
 
 <!-- top page image, can be slideshow depend on requirement -->
 <div class="row">
 	<div class="columns show-for-medium-up">
-		<img src="http://placehold.it/1000x250" />
+		<img src="http://placehold.it/1150x250" />
 	</div>
 	<div class="columns show-for-small-only">
 		<img src="http://placehold.it/640x400" />

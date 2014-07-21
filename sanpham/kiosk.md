@@ -1,11 +1,13 @@
 ---
 layout: default
+title: Kiosk bán hàng đa năng
+tags: hotprd
 ---
 
 <div class="row">
   <div class="columns">
     <div class="panel">
-      <h4>Nhà chờ bus</h4>
+      <h4>kiosk bán hàng đa năng</h4>
     </div>
   </div>
 </div>

@@ -1,10 +1,14 @@
 ---
 layout: default
+title: Liên hệ
+tags: topnav
+permalink: contact/
+w: 4
 ---
 
 <div class="row show-for-medium-up">
 	<div class="columns">
-		<p><img src="http://placehold.it/1000x500&text=insert+google+maps" /></p>
+		<p><img src="http://placehold.it/1150x500&text=insert+google+maps" /></p>
 		<p>Ban co the lien he voi cac phong chuc nang bang cac so dien thoai duoc cung cap duoi day. Hoac <a href="#" data-reveal-id="directmail" class="alert label round">gui email truc tiep</a> cho chung toi.</p>
 	
 		<div id="directmail" class="reveal-modal large" data-reveal>
@@ -32,8 +36,8 @@ layout: default
 				<h5>{{ contact.name }}</h5>
 				<p>{{ contact.desc }}</p>
 				<p class="contact-line">
-					<span><img src="{{ site.baseurl }}/sdk-img/icon-phone.svg" width="16px" /></span> {{ contact.tel }}<br>
-					<span><img src="{{ site.baseurl }}/sdk-img/icon-email.svg" width="16px" /></span> {{ contact.email }}
+					<span><img src="{{ site.baseurl }}/{{ site.imgs }}/icon-phone.svg" width="16px" /></span> {{ contact.tel }}<br>
+					<span><img src="{{ site.baseurl }}/{{ site.imgs }}/icon-email.svg" width="16px" /></span> {{ contact.email }}
 				</p>
 			</li>
 		

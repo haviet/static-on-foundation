@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ""Vấn đề data cho website"
+title:  "Vấn đề data cho website"
 tags: database
 categories: jekyll
 ---

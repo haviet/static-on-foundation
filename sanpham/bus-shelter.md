@@ -1,27 +1,22 @@
 ---
 layout: default
+title: Nhà chờ bus
+tags: hotprd
 ---
 
 <div class="row">
   <div class="columns">
     <div class="panel">
-      <h4>Biển tấm lớn</h4>
+      <h4>Nhà chờ bus</h4>
     </div>
   </div>
 </div>
 
-<div class="row">
-  <div class="columns">
-    {% include table-billboard.html %}
-  </div>
-</div>
-
-
 <!-- hiển thị trên màn hình lớn -->
 <div class="row show-for-medium-up">
   <div class="columns">
-     <h4>Các sản phẩm khác</h4>
-  	{% include sp-bigblock-list.html %}
+    <h4>Các sản phẩm khác</h4>
+  		{% include sp-bigblock-list.html %}
   </div>
 </div>
 

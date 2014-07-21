@@ -1,11 +1,13 @@
 ---
 layout: default
+title: Trạm trung chuyển bus
+tags: hotprd
 ---
 
 <div class="row">
   <div class="columns">
     <div class="panel">
-      <h4>kiosk bán hàng đa năng</h4>
+      <h4>Trạm trung chuyển</h4>
     </div>
   </div>
 </div>

@@ -3,7 +3,7 @@
 		<nav class="top-bar" data-topbar data-options="is_hover: false">
 		  <ul class="title-area">
 		    <li class="name">
-		      <!-- <h1><a href="{{ site.baseurl }}/">Havico Corp.</a></h1> -->
+		      <h1><a href="{{ site.baseurl }}/">Havico Corp.</a></h1>
 		    </li>
 		     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
 		    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -15,8 +15,10 @@
 		      <li class="has-dropdown active">
 		        <a href="#">Hot Products</a>
 		        <ul class="dropdown">
-					{% for link in site.data.link-bigblock %}
-						<li><a href="{{ site.baseurl }}/{{ link.linkto }}">{{ link.name }}</a></li>
+					{% for page in site.pages %}
+          {% if page.tags == "hotprd" %}
+						<li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+          {% endif %}
 					{% endfor %}
 		        </ul>
 		      </li>
@@ -24,9 +26,15 @@
 
 		    <!-- Left Nav Section -->
 		    	<ul class="left">
-		    		{% for menu in site.data.sitenav %}
-						<li><a href="{{ site.baseurl }}/{{ menu.link }}/">{{ menu.name }}</a></li>
-					{% endfor %}
+          {% for weight in (1..10) %}
+		    		{% for p in site.pages %}
+            {% if p.tags == "topnav" %}
+              {% if p.w == weight %}
+                <li><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
+              {% endif %}
+            {% endif %}
+            {% endfor %}
+          {% endfor %}
 				</ul>
 		  </section>
 		</nav>
