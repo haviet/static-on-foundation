@@ -7,15 +7,62 @@ permalink: haviet-billboard/
 
 <div class="row">
   <div class="columns">
-    <div class="panel">
-      <h4>Biển tấm lớn</h4>
-    </div>
-  </div>
-</div>
+  <p class="panel callout lead">Biển tấm lớn - Billboard</p>
+  
+  <h2>Available</h2>
 
-<div class="row">
-  <div class="columns">
-    {% include table-billboard.html %}
+<table style="width:100%;">
+  <thead>
+    <tr> 
+      <th>Codename</th>
+      <th>Location</th> 
+      <th>Describe</th>
+      <th>Size</th>
+    </tr>
+  </thead>
+  <tbody> 
+  {% for post in site.categories.billboard %}
+  {% if post.available == true %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.codename }}</a></td>
+      <td>{{ post.location }}</td>
+      <td>{{ post.desc }}</td>
+      <td>{{ post.size }}</td>
+    </tr>
+  {% endif %}
+  {% endfor %}
+  </tbody>
+</table> 
+  
+  
+  <h2>Rented</h2>
+<table style="width:100%;">
+  <thead>
+    <tr> 
+      <th>Codename</th>
+      <th>Describe</th>
+      <th>Size</th>
+      <th>Due Date</th> 
+    </tr>
+  </thead>
+  <tbody> 
+  {% for post in site.categories.billboard %}
+  {% if post.available == false %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.codename }}</a></td>
+      <td>{{ post.desc }}</td>
+      <td>{{ post.size }}</td>
+      <td>{{ post.duedate }}</td>
+    </tr>
+  {% endif %}
+  {% endfor %}
+  </tbody>
+</table> 
+  
+  
+  
+  
+    
   </div>
 </div>
 
