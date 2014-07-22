@@ -1,0 +1,13 @@
+# Co cach nao bat phan mem git khong theo doi file nay khong?
+# Site settings
+title: "Haviet"
+admin-email: "kienhaviet@hotmail.com"
+description: "website cua cty haviet, thiet ke boi nikenhn."
+baseurl: ""
+foundation: haviet/foundation
+nivo: haviet/nivoslider
+imgs: haviet/images
+
+# Build settings
+markdown: kramdown
+permalink: pretty
