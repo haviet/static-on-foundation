@@ -14,10 +14,10 @@ images:
   caption: this is image one
 - preview: 380x250
   full: 1000x600
-  caption: this is image one
+  caption: this is image two
 - preview: 380x250
   full: 1000x600
-  caption: this is image one
+  caption: this is image three
 
 
 ---
