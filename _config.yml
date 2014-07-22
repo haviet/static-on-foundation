@@ -4,7 +4,7 @@ admin-email: "kienhaviet@hotmail.com"
 description: "website cua cty haviet, thiet ke boi nikenhn."
 baseurl: "/static-on-foundation"
 foundation: haviet/foundation
-slick: haviet/slick
+nivo: haviet/nivoslider
 imgs: haviet/images
 
 # Build settings
