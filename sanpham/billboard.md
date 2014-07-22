@@ -24,7 +24,7 @@ permalink: haviet-billboard/
   {% for post in site.categories.billboard %}
   {% if post.available == true %}
     <tr>
-      <td><a href="{{ post.url }}">{{ post.codename }}</a></td>
+      <td><a href="{{ site.baseurl }}{{ post.url }}">{{ post.codename }}</a></td>
       <td>{{ post.location }}</td>
       <td>{{ post.desc }}</td>
       <td>{{ post.size }}</td>
@@ -49,7 +49,7 @@ permalink: haviet-billboard/
   {% for post in site.categories.billboard %}
   {% if post.available == false %}
     <tr>
-      <td><a href="{{ post.url }}">{{ post.codename }}</a></td>
+      <td><a href="{{ site.baseurl }}{{ post.url }}">{{ post.codename }}</a></td>
       <td>{{ post.desc }}</td>
       <td>{{ post.size }}</td>
       <td>{{ post.duedate }}</td>
