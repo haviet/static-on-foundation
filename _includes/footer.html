@@ -82,7 +82,32 @@
 
 <script type="text/javascript" src="{{ site.baseurl }}/{{ site.nivo }}/jquery.nivo.slider.js"></script>
 <script type="text/javascript">
-$(window).load(function() {
-    $('#slider').nivoSlider();
+jQuery(document).ready(function($){
+	//Below is Support for Swiping the Homepage Feature (using custom complied version of jQuery Mobile v1.2)
+	if(jQuery.support.touch){
+		$(‘#slider’).nivoSlider({
+
+    });
+    //First, Remove Hover Next and Previous Arrows on Touch Devices. Don’t need them really.
+    $(‘a.nivo-nextNav’).css(‘visibility’,‘hidden’);
+    $(‘a.nivo-prevNav’).css(‘visibility’,‘hidden’);
+    //Then Finish Up swipeleft and swiperight
+    $(‘#slider’).bind(‘swipeleft’,function(e){
+    $(‘#slider img’).attr(“data-transition”,“slideInLeft”);
+    $(‘a.nivo-nextNav’).trigger(‘click’);
+    e.stopImmediatePropagation();
+       returnfalse;}     
+    );  
+    $(‘#slider’).bind(‘swiperight’,function(e){
+    $(‘#slider img’).attr(“data-transition”,“slideInRight”);
+    $(‘a.nivo-prevNav’).trigger(‘click’);
+    e.stopImmediatePropagation();
+      returnfalse;}
+	  );
+		}
+   else{
+    $(‘#slider’).nivoSlider({
+    });
+}
 });
 </script>
