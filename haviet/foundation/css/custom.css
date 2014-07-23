@@ -1,4 +1,5 @@
 /* custom site css */
+body { background:#FFFFDD; }
 
 header img { width:280px; margin: 0.5em 0 0.2em -0.2em; }
 .closing-line p, p.contact-line { font-size: 80%; }
@@ -15,3 +16,8 @@ header img { width:280px; margin: 0.5em 0 0.2em -0.2em; }
 
 .bb_true { background: orange; }
 .bb_false { background: green; }
+
+.bg01 { background: url('../../images/tl.png') no-repeat right center; }
+.bg02 { background: url('../../images/br.png') no-repeat left center; }
+.bg03 { background: url('../../images/bl.png') no-repeat 50px center; }
+.bg04 { background: url('../../images/tr.png') no-repeat -100px center; }

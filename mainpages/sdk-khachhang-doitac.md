@@ -8,7 +8,7 @@ w: 3
 
 <div class="row show-for-medium-up"> <!-- chi hien thi tren man hinh lon -->
 	<div class="columns">
-		<img src="http://placehold.it/1150x250" />
+		<img src="{{ site.baseurl }}/{{ site.imgs }}/advertising-banner2.jpg" />
 	</div>
 </div>
 

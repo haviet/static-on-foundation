@@ -9,7 +9,7 @@ w: 1
 <!-- top page image, can be slideshow depend on requirement -->
 <div class="row">
 	<div class="columns show-for-medium-up">
-		<img src="http://placehold.it/1150x250" />
+		<img src="{{ site.baseurl }}/{{ site.imgs }}/advertising-banner.jpg" />
 	</div>
 	<div class="columns show-for-small-only">
 		<img src="http://placehold.it/640x400" />
